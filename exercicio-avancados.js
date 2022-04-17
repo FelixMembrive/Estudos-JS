@@ -1,21 +1,21 @@
-const calculadora = (operacao, numero1, numero2) => {
+const calculadora = (entrada, operacao, numero1, numero2) => {
     const resultado = `${numero1} ${operacao} ${numero2}`
 }
 
 
-const operacao = "Multiplicação"
+const entrada = "Multiplicação"
 
 switch (operacao) {
     case "Multiplicação":
-        operacao = "*";
+        const operacao = "*";
         break;
 
     case "Adição":
-        operacao = "+";
+        const operacao = "+";
         break;
 
     case "Subtração":
-        operacao = "+";
+        const operacao = "+";
         break;
 
     default:
